@@ -48,6 +48,8 @@ ul {
 
 .header-menu {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-nav {
@@ -127,13 +129,18 @@ ul {
 
 .address {
     font-style: normal;
-    
 }
 
 
 .list-menu {
     display: flex;
     gap: 40px;   
+}
+
+.list-address {
+    display: flex;
+    gap: 40px;
+    margin-left: 332px;
 }
 
 .list-section-two {
