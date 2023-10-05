@@ -212,6 +212,7 @@ ul {
 
 .team-name {
     padding: 32px 0px;
+    text-align: center;
 }
 
 .main-header {
@@ -280,6 +281,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    
 }
 
 .cursor {
