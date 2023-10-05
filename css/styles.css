@@ -107,6 +107,10 @@ body {
     list-style: none;
 }
 
+.list-section-two-li {
+    width: calc((100% - 72px) / 4);
+}
+
 .list-button {
     list-style: none;
     display: inline-flex;
@@ -196,6 +200,7 @@ img {
     color: #2e2f42;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .cursor {
