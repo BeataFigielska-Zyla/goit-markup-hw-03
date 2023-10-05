@@ -26,6 +26,11 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 800;
@@ -34,7 +39,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-  
+    margin-right: 76px;
 }
 
 .link {
@@ -75,6 +80,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .nav-link:hover {
@@ -91,8 +97,7 @@ body {
 
 
 .list-menu {
-    display: inline-flex;
-    align-items: flex-start;
+    display: flex;
     gap: 40px;
     list-style: none;
 }
