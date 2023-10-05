@@ -102,8 +102,7 @@ body {
 }
 
 .list-section-two {
-    display: inline-flex;
-    align-items: flex-start;
+    display: flex;
     gap: 24px;
     list-style: none;
 }
