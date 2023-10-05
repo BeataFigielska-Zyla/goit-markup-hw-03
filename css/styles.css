@@ -45,6 +45,11 @@ body {
     text-decoration: none;
 }
 
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .logo-text-studio {
     color: #2e2f42;
 }
@@ -305,6 +310,7 @@ img {
 
 .footer_background {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .visually-hidden {
