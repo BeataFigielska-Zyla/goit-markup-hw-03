@@ -26,6 +26,7 @@ img {
 ul {
     margin: 0;
     padding-left: 0;
+    list-style: none;
 }
 
 .container {
@@ -130,22 +131,20 @@ ul {
 
 .list-menu {
     display: flex;
-    gap: 40px;
-    list-style: none;
+    gap: 40px;   
 }
 
 .list-section-two {
     display: flex;
     gap: 24px;
-    list-style: none;
+
 }
 
 .list-section-two-li {
     width: calc((100% - 72px) / 4);
 }
 
-.list-section-three {
-    list-style: none;
+.list-section-three {   
     display: flex;
     gap: 24px;
 }
@@ -153,8 +152,7 @@ ul {
 .list-section-three-li {
     width: calc((100% - 48px) / 3);
 }
-.list-button {
-    list-style: none;
+.list-button {  
     display: flex;
     gap: 24px;
     padding: 12px 24px;
@@ -164,7 +162,7 @@ ul {
 }
 
 .list-portfolio {
-    list-style: none;
+    
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
