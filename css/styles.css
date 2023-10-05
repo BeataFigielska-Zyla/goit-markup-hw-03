@@ -136,6 +136,12 @@ body {
     flex-basis: calc((100% - 48px) / 3);
 }
 
+.list-team {
+    display: flex;
+    gap: 24px;
+
+}
+
 img {
     display: block;
 }
@@ -151,6 +157,12 @@ img {
 
 .background-list {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-name {
+    padding: 32px 0px;
 }
 
 .main-header {
@@ -211,6 +223,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .cursor {
@@ -257,6 +270,10 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.job-position {
+    text-align: center;
 }
 
 .footer-text {
