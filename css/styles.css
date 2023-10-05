@@ -122,10 +122,12 @@ body {
 }
 .list-button {
     list-style: none;
-    display: inline-flex;
+    display: flex;
+    gap: 24px;
     padding: 12px 24px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 72px
 }
 
 .list-portfolio {
@@ -239,17 +241,20 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #F4F4FD;
-
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc
 }
 
 .button-text:hover {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .button-text:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .project-name {
@@ -302,3 +307,7 @@ img {
         clip: rect(0 0 0 0);
         overflow: hidden;
     }
+
+.portfolio-section {
+    padding: 96px 0 120px 0
+}
