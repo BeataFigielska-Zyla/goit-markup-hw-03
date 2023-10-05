@@ -30,8 +30,6 @@ ul {
 
 .container {
     width: 1158px;
-    flex-wrap: wrap;
-    justify-content: center;
     margin: 0 auto;
     padding: 0 15px;
 }
