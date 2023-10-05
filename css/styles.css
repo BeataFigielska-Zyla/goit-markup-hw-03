@@ -45,6 +45,10 @@ ul {
    
 }
 
+.header-menu {
+    display: flex;
+}
+
 .header-nav {
     display: flex;
     align-items: center;
@@ -89,7 +93,7 @@ ul {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+    padding: 24px 0;
 }
 
 .contact-link:hover {
@@ -98,6 +102,7 @@ ul {
 
 .contact-link:focus {
     color: var(--ocean-color);
+
 }
 
 .nav-link {
@@ -121,7 +126,7 @@ ul {
 
 .address {
     font-style: normal;
-    display: flex;
+    
 }
 
 
