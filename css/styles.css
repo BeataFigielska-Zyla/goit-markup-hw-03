@@ -131,6 +131,7 @@ img {
 
 .main-section {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .background-section {
@@ -150,7 +151,7 @@ img {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-
+    max-width: 496px;
 }
 
 .order-service-button {
@@ -162,10 +163,11 @@ img {
     background-color: #4D5AE5;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .order-service-button:hover {
