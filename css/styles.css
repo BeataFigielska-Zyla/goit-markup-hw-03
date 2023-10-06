@@ -4,6 +4,12 @@ body {
     background-color: #FFFFFF;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --iris-color: #4d5ae5;
     --ocean-color: #404BBF;
@@ -78,7 +84,6 @@ ul {
     display: inline-block;
     margin-bottom: 16px;
 }
-
 
 
 .logo-text-studio {
@@ -274,6 +279,11 @@ ul {
     text-transform: capitalize;
     color: var(--navyblue-color);
     margin-bottom: 72px;
+    
+}
+
+.section-two {
+padding-top: 0;
 }
 
 .third-headline {
